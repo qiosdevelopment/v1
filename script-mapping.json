@@ -1,0 +1,46 @@
+{
+  "tipe_standar": {
+    "ewallet": {
+      "label": "Nomor Tujuan",
+      "placeholder": "Ketik nomor tujuan...",
+      "mode_tombol": "kontak",
+      "tipe_input": "tel"
+    },
+    "pulsa": {
+      "label": "Nomor Handphone",
+      "placeholder": "Ketik nomor hp...",
+      "mode_tombol": "kontak",
+      "tipe_input": "tel"
+    },
+    "pln": {
+      "label": "No. Meter / ID Pelanggan",
+      "placeholder": "Ketik nomor meter...",
+      "mode_tombol": "scan",
+      "tipe_input": "tel"
+    }
+  },
+  "tipe_game": {
+    "Mobile Legends": {
+      "jenis_form": "split",
+      "label": "ID Pemain & Server",
+      "input1": { "placeholder": "Ketik ID Player...", "tipe": "tel" },
+      "input2": { "placeholder": "Server...", "tipe": "tel" }
+    },
+    "Free Fire": {
+      "jenis_form": "single",
+      "label": "ID Pemain (Free Fire)",
+      "input1": { "placeholder": "Ketik ID Player...", "tipe": "tel" }
+    },
+    "Genshin Impact": {
+      "jenis_form": "split",
+      "label": "UID & Server",
+      "input1": { "placeholder": "Ketik UID...", "tipe": "tel" },
+      "input2": { "placeholder": "Server (ex: os_asia)...", "tipe": "text" }
+    },
+    "PUBG Mobile": {
+      "jenis_form": "single",
+      "label": "ID Karakter",
+      "input1": { "placeholder": "Ketik ID PUBG...", "tipe": "tel" }
+    }
+  }
+}
