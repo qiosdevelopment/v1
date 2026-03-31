@@ -2,45 +2,199 @@
   "tipe_standar": {
     "ewallet": {
       "label": "Nomor Tujuan",
-      "placeholder": "Ketik nomor tujuan...",
+      "placeholder": "Ketik nomor tujuan e-wallet...",
       "mode_tombol": "kontak",
       "tipe_input": "tel"
     },
     "pulsa": {
       "label": "Nomor Handphone",
-      "placeholder": "Ketik nomor hp...",
+      "placeholder": "Ketik nomor hp tujuan...",
       "mode_tombol": "kontak",
       "tipe_input": "tel"
     },
     "pln": {
       "label": "No. Meter / ID Pelanggan",
-      "placeholder": "Ketik nomor meter...",
+      "placeholder": "Ketik nomor meter PLN...",
       "mode_tombol": "scan",
       "tipe_input": "tel"
+    },
+    "token": {
+      "label": "No. Meter / ID Pelanggan",
+      "placeholder": "Ketik nomor meter PLN...",
+      "mode_tombol": "scan",
+      "tipe_input": "tel"
+    },
+    "kontak": {
+      "label": "Nomor Telepon",
+      "placeholder": "Ketik nomor telepon...",
+      "mode_tombol": "kontak",
+      "tipe_input": "tel"
+    },
+    "scan": {
+      "label": "ID Pelanggan / Barcode",
+      "placeholder": "Ketik ID atau Scan...",
+      "mode_tombol": "scan",
+      "tipe_input": "text"
+    },
+    "keduanya": {
+      "label": "Nomor / ID Pelanggan",
+      "placeholder": "Ketik nomor atau ID...",
+      "mode_tombol": "keduanya",
+      "tipe_input": "text"
+    },
+    "polos": {
+      "label": "Data Tujuan",
+      "placeholder": "Ketik data tujuan...",
+      "mode_tombol": "tidak_ada",
+      "tipe_input": "text"
     }
   },
   "tipe_game": {
     "Mobile Legends": {
       "jenis_form": "split",
-      "label": "ID Pemain & Server",
-      "input1": { "placeholder": "Ketik ID Player...", "tipe": "tel" },
-      "input2": { "placeholder": "Server...", "tipe": "tel" }
+      "label": "ID Pemain & ID Server",
+      "input1": {
+        "tipe_elemen": "input",
+        "tipe": "tel",
+        "placeholder": "Ketik ID Player..."
+      },
+      "input2": {
+        "tipe_elemen": "input",
+        "tipe": "tel",
+        "placeholder": "Server..."
+      }
+    },
+    "Genshin Impact": {
+      "jenis_form": "split",
+      "label": "UID & Server Genshin",
+      "input1": {
+        "tipe_elemen": "input",
+        "tipe": "tel",
+        "placeholder": "Ketik UID..."
+      },
+      "input2": {
+        "tipe_elemen": "select",
+        "options": [
+          { "value": "os_asia", "label": "Asia" },
+          { "value": "os_usa", "label": "America" },
+          { "value": "os_euro", "label": "Europe" },
+          { "value": "os_cht", "label": "TW, HK, MO" }
+        ]
+      }
     },
     "Free Fire": {
       "jenis_form": "single",
       "label": "ID Pemain (Free Fire)",
-      "input1": { "placeholder": "Ketik ID Player...", "tipe": "tel" }
-    },
-    "Genshin Impact": {
-      "jenis_form": "split",
-      "label": "UID & Server",
-      "input1": { "placeholder": "Ketik UID...", "tipe": "tel" },
-      "input2": { "placeholder": "Server (ex: os_asia)...", "tipe": "text" }
+      "input1": {
+        "tipe_elemen": "input",
+        "tipe": "tel",
+        "placeholder": "Ketik ID Free Fire..."
+      }
     },
     "PUBG Mobile": {
       "jenis_form": "single",
-      "label": "ID Karakter",
-      "input1": { "placeholder": "Ketik ID PUBG...", "tipe": "tel" }
+      "label": "ID Karakter (PUBG)",
+      "input1": {
+        "tipe_elemen": "input",
+        "tipe": "tel",
+        "placeholder": "Ketik ID Karakter PUBG..."
+      }
+    },
+    "Call of Duty": {
+      "jenis_form": "single",
+      "label": "OpenID (CODM)",
+      "input1": {
+        "tipe_elemen": "input",
+        "tipe": "text",
+        "placeholder": "Ketik OpenID CODM..."
+      }
+    },
+    "Valorant": {
+      "jenis_form": "split",
+      "label": "Riot ID & Tagline",
+      "input1": {
+        "tipe_elemen": "input",
+        "tipe": "text",
+        "placeholder": "Riot ID (Contoh: Nama)"
+      },
+      "input2": {
+        "tipe_elemen": "input",
+        "tipe": "text",
+        "placeholder": "Tagline (Contoh: #1234)"
+      }
+    },
+    "Honkai Star Rail": {
+      "jenis_form": "split",
+      "label": "UID & Server HSR",
+      "input1": {
+        "tipe_elemen": "input",
+        "tipe": "tel",
+        "placeholder": "Ketik UID..."
+      },
+      "input2": {
+        "tipe_elemen": "select",
+        "options": [
+          { "value": "prod_official_asia", "label": "Asia" },
+          { "value": "prod_official_usa", "label": "America" },
+          { "value": "prod_official_euro", "label": "Europe" },
+          { "value": "prod_official_cht", "label": "TW, HK, MO" }
+        ]
+      }
+    },
+    "Arena of Valor": {
+      "jenis_form": "single",
+      "label": "OpenID (AOV)",
+      "input1": {
+        "tipe_elemen": "input",
+        "tipe": "text",
+        "placeholder": "Ketik OpenID AOV..."
+      }
+    },
+    "Point Blank": {
+      "jenis_form": "single",
+      "label": "ID Login (Point Blank)",
+      "input1": {
+        "tipe_elemen": "input",
+        "tipe": "text",
+        "placeholder": "Ketik ID Login..."
+      }
+    },
+    "Sausage Man": {
+      "jenis_form": "single",
+      "label": "ID Karakter (Sausage Man)",
+      "input1": {
+        "tipe_elemen": "input",
+        "tipe": "text",
+        "placeholder": "Ketik ID Karakter..."
+      }
+    },
+    "Super Sus": {
+      "jenis_form": "single",
+      "label": "Space ID (Super Sus)",
+      "input1": {
+        "tipe_elemen": "input",
+        "tipe": "tel",
+        "placeholder": "Ketik Space ID..."
+      }
+    },
+    "Tower of Fantasy": {
+      "jenis_form": "split",
+      "label": "UID & Server ToF",
+      "input1": {
+        "tipe_elemen": "input",
+        "tipe": "tel",
+        "placeholder": "Ketik UID..."
+      },
+      "input2": {
+        "tipe_elemen": "select",
+        "options": [
+          { "value": "Southeast Asia", "label": "Southeast Asia" },
+          { "value": "Asia-Pacific", "label": "Asia-Pacific" },
+          { "value": "North America", "label": "North America" },
+          { "value": "Europe", "label": "Europe" },
+          { "value": "South America", "label": "South America" }
+        ]
+      }
     }
   }
 }
