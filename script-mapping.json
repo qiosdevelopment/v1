@@ -51,6 +51,8 @@
   },
   "tipe_game": {
     "Mobile Legends": {
+      "judul": "Mobile Legends",
+      "icon": "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/MLBB-2025-tiles-178x178.jpg",
       "jenis_form": "split",
       "label": "ID Pemain & ID Server",
       "input1": {
